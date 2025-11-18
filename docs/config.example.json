@@ -1,0 +1,35 @@
+{
+  "device_id": "VARIADOR001",
+  "wifi": {
+    "ssid": "TU_SSID",
+    "password": "TU_PASSWORD"
+  },
+  "network": {
+    "mode": "dhcp",
+    "static_ip": "",
+    "gateway": "",
+    "netmask": ""
+  },
+  "mqtt": {
+    "enabled": true,
+    "broker": "mqtt.tudominio.com",
+    "port": 1883,
+    "user": "tu_usuario",
+    "password": "tu_contraseña",
+    "topic_base": "ramonelectronica/variador"
+  },
+  "scada": {
+    "http_enabled": true,
+    "http_port": 80,
+    "ui_path": "/"
+  },
+  "motor": {
+    "max_rpm": 3000,
+    "control_mode": "open-loop",
+    "default_speed": 50
+  },
+  "safety": {
+    "overcurrent_threshold_amps": 10,
+    "overtemp_threshold_c": 80
+  }
+}
