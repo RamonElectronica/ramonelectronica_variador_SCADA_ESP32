@@ -32,7 +32,7 @@ Cómo puedes ayudar
 
 Comunidad y soporte
 - Usa Issues para bugs y mejoras.
-- Para soporte comercial o integraciones, contacta: contacto@ramonelectronica.com
+- Para soporte comercial o integraciones, contacta: (https://ramonelectronica.great-site.net/)
 
 Licencia
 - Este repositorio está bajo MIT — libre para uso y comercialización. (Si más adelante ofrezco una versión PRO cerrada, se anunciará claramente.)
