@@ -1,4 +1,8 @@
 ```markdown
+**Ingeniero maker en automatización industrial**  
+Desarrollo modular con **Python y C++**, integrando hardware abierto como **ESP32, Arduino y Raspberry Pi**.  
+Me apasiona crear soluciones con enfoque industrial ligero y accesible, conectando **SCADA, HMI y MQTT**.
+
 # Variador SCADA/HMI - Ramón Electrónica
 
 ¡Bienvenido! Este repositorio contiene el firmware y documentación del variador de frecuencia con SCADA/HMI basado en ESP32 desarrollado por Ramón Electrónica. Este proyecto es 100% gratuito y open‑source para que la comunidad lo use, modifique y mejore.
