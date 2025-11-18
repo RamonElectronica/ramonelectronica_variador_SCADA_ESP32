@@ -1,39 +1,44 @@
 ```markdown
-# RamonElectrónica — Variador SCADA/HMI (ESP32)
+# Variador SCADA/HMI - Ramón Electrónica
 
-[Descripción corta]
-Variador de frecuencia con interfaz SCADA/HMI basado en ESP32 y Python — diseñado para controlar motores de forma sencilla y alojar un HMI/SCADA liviano.
+¡Bienvenido! Este repositorio contiene el firmware y documentación del variador de frecuencia con SCADA/HMI basado en ESP32 desarrollado por Ramón Electrónica. Este proyecto es 100% gratuito y open‑source para que la comunidad lo use, modifique y mejore.
 
-## Demo
-![demo GIF o screenshot](docs/demo.gif)
+🚀 ¿Qué encontrarás aquí?
+- Firmware para ESP32 y ejemplo de configuración.
+- BOM y guías de montaje en docs/.
+- Ejemplos de integración MQTT / Modbus.
+- Archivos Gerber para fabricar el PCB (en Releases cuando estén disponibles).
 
-## Características
-- Control de velocidad vía HMI/SCADA
-- Comunicación por Wi‑Fi / MQTT (o indicar protocolo)
-- Firmware para ESP32 y scripts Python para SCADA
-- Soporte para calibración y protección
+¿Por qué gratis?
+Este es mi primer proyecto público: quiero que la comunidad lo pruebe, aporte ideas y comparta mejoras. Si te resulta útil, considera apoyar el proyecto con una estrella ⭐ y/o donación (en FUNDING.yml).
 
-## Requisitos de hardware
-- ESP32 (modelo X)
-- Fuente de alimentación (especificar)
-- HMI / pantalla (modelo)
-- Relés/Driver para motor (BOM detallado en docs/BOM.md)
+Características principales
+- Control de variador y panel HMI (pantalla o Web UI).
+- Integración con MQTT y SCADA local (HTTP).
+- Configuración vía archivo config.json o portal Wi‑Fi.
+- Diseñado para ser ampliado y usado en proyectos domésticos e industriales ligeros.
 
-## Instalación rápida
-1. Descargar release v0.1.0 desde: https://github.com/RamonElectronica/ramonelectronica_variador_SCADA_ESP32/releases
-2. Flashear firmware.bin con esptool o ESP32 flasher
-3. Configurar wifi en config.json
-4. Conectar HMI y encender
+Quickstart (rápido)
+1. Descarga el firmware desde Releases.
+2. Copia docs/config.example.json → config.json y edita tus valores (NO subas credenciales).
+3. Flashea el ESP32 con esptool o ESPHome (ver docs/flash.md).
+4. Conecta tu broker MQTT y prueba los topics base.
 
-## Cómo apoyar / Comprar la versión Pro
-- Versión gratuita: firmware base + docs
-- Versión Pro (incluye firmware optimizado, soporte y actualizaciones): [Enlace a producto/tienda o Sponsor]
-- Sponsors: botón “Sponsor” arriba a la derecha (FUNDING.yml)
+Cómo puedes ayudar
+- Probar y reportar bugs usando Issues.
+- Enviar PRs con mejoras o traducciones.
+- Compartir proyectos basados en este repo.
+- Apoyar económicamente para acelerar el desarrollo (ver FUNDING).
 
-## Contribuir
-Lee CONTRIBUTING.md para aportar y CODE_OF_CONDUCT.md para conducta de la comunidad.
+Comunidad y soporte
+- Usa Issues para bugs y mejoras.
+- Para soporte comercial o integraciones, contacta: contacto@ramonelectronica.com
 
-## Licencia
-MIT — ver LICENSE
+Licencia
+- Este repositorio está bajo MIT — libre para uso y comercialización. (Si más adelante ofrezco una versión PRO cerrada, se anunciará claramente.)
 
+Últimas indicaciones
+- No subas archivos con credenciales reales (config.json). Añadí .gitignore para ayudarte con esto.
+
+¡Gracias por mirar y contribuir!
 ```
